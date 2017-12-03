@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JXPhotoSelector'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of JXPhotoSelector.'
+  s.version          = '1.0'
+  s.summary          = 'A photos && videos picker for iOS device.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+                        This is a photos && videos picker for iOS device, it supports iOS 7.0 above devices.
                        DESC
 
   s.homepage         = 'https://github.com/xiangfly11/JXPhotoSelector'
@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/xiangfly11/JXPhotoSelector.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '7.0'
 
   s.source_files = 'JXPhotoSelector/Classes/**/*'
   

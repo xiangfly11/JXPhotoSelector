@@ -7,6 +7,7 @@
 //
 
 #import "JXViewController.h"
+#import "JXPhotoSelectorTool.h"
 
 @interface JXViewController ()
 

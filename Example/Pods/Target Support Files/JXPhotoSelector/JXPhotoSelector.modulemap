@@ -1,0 +1,6 @@
+framework module JXPhotoSelector {
+  umbrella header "JXPhotoSelector-umbrella.h"
+
+  export *
+  module * { export * }
+}
